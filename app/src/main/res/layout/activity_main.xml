@@ -44,4 +44,16 @@
 
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="164dp"
+        android:text="Hola a todos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
+    >>>>>>> 27737c8f517174ea04be0585f83c3c3b813bc767
+
+</androidx.constraintlayout.widget.ConstraintLayout>=======
+
