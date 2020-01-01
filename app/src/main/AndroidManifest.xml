@@ -8,22 +8,55 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".Fury"></activity>
-        <activity android:name=".CapitanAmerica" />
-        <activity android:name=".Thanos" />
-        <activity android:name=".Spiderman" />
-        <activity android:name=".DoctorStrange" />
-        <activity android:name=".IronMan" />
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".Fury"
+            android:theme="@style/AppTheme"
+            android:parentActivityName=".Presentacion"/>
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Presentacion"/>
+        <activity android:name=".CapitanAmerica"
+            android:theme="@style/AppTheme"
+            android:parentActivityName=".Presentacion"/>
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Presentacion"
+            />
+        <activity android:name=".Thanos"
+            android:theme="@style/AppTheme"
+            android:parentActivityName=".Presentacion"/>
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Presentacion"/>
+        <activity android:name=".Spiderman"
+            android:theme="@style/AppTheme"
+            android:parentActivityName=".Presentacion"/>
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Presentacion"/>
+        <activity android:name=".DoctorStrange"
+            android:theme="@style/AppTheme"
+            android:parentActivityName=".Presentacion"/>
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Presentacion"
+            />
+        <activity android:name=".IronMan"
+            android:theme="@style/AppTheme"
+            android:parentActivityName=".Presentacion"/>
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Presentacion"
+            />
         <activity android:name=".Presentacion" />
-        <activity android:name=".pantalla_bienvenida" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".pantalla_bienvenida">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".MainActivity"/>
     </application>
 
 </manifest>
