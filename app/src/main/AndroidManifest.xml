@@ -9,6 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Fury"></activity>
+        <activity android:name=".CapitanAmerica" />
+        <activity android:name=".Thanos" />
+        <activity android:name=".Spiderman" />
+        <activity android:name=".DoctorStrange" />
+        <activity android:name=".IronMan" />
+        <activity android:name=".Presentacion" />
+        <activity android:name=".pantalla_bienvenida" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
